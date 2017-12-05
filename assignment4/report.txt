@@ -1,0 +1,7 @@
+Hash Table algorithm
+
+To find necessary divisor, I used sieve of Eratosthenes algorithm for finding prime numbers.
+Other functions are obvious.
+In the spellcheck, we just store <string, string> entries in the table. To find one word, it 
+consumes at average O(1) time, so very fast. And other part is done as in the problem description
+
